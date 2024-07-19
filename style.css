@@ -1,0 +1,9 @@
+body {
+    align-items: center;
+    text-align: center;
+}
+
+#gamename{
+    font-size: 300%;
+    padding-top: 100px;
+}

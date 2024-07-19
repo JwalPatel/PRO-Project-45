@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            TIC TAC TOE
+        </title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <script type="module" src="./main.js"></script>
+    </head>
+    <body>
+        <!--Select A Game Mode Screen-->
+        <div class="screens" id="selectorScreen" style="display: block;">
+            <p id="gamename">
+                TIC TAC TOE
+            </p>
+
+            <br>
+            <button class="Sbutton" id="joinButton">Join A Game</button>
+            <br>
+            <button class="Sbutton" id="createButton">Create A Game</button>
+        </div>
+
+        <!--Create A Game Screen-->
+        <div class="screens" id="createScreen" style="display: none;">
+            <p id="gamename">
+                TIC TAC TOE
+            </p>
+
+            <br>
+            <input id="playerName1" placeholder="Enter Your Name Here.....">
+            <br>
+            <h2 id="roomGenerator"></h2>
+            <br>
+
+            <button class="submitButtons" id="submit1"> PLAY </button>
+        </div>
+
+        <!--Join A Game Screen-->
+        <div class="screens" id="joinScreen" style="display: none;">
+            <p id="gamename">
+                TIC TAC TOE
+            </p>
+            <input id="playerName2" placeholder="Enter Your Name Here.....">
+            <input id="roomId" placeholder="Enter Your Room ID Here.....">
+
+            <button class="submitButtons" id="submit2"> PLAY </button>
+        </div>
+    </body>
+</html>
